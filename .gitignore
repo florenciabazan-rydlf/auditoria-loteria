@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Nx
+.nx/cache/
+.nx/workspace-data/
+.nx/polygraph/
+
+# Next.js
+.next/
+out/
+
+# Build
+dist/
+build/
+coverage/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# Testing
+playwright-report/
+test-results/
+blob-report/
+
+# Vitest
+vitest.config.*.timestamp*
+
+# Claude
+.claude/worktrees/
+.claude/settings.local.json
